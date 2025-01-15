@@ -1,0 +1,21 @@
+{
+  "name": "spa-(1)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/start-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "fs-extra": "^11.2.0",
+    "lit": "^3.2.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.3"
+  }
+}

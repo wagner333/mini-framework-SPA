@@ -1,0 +1,15 @@
+mini-angular-framework/
+├── index.html
+├── app/
+│   ├── main.js          # Ponto de entrada da aplicação
+│   ├── app.module.js    # Definição do módulo principal
+│   ├── components/      # Pasta para componentes
+│   │   ├── home.component.js
+│   │   ├── about.component.js
+│   └── services/        # Pasta para serviços (opcional)
+├── core/
+│   ├── component.js     # Classe base de componente
+│   ├── router.js        # Sistema de roteamento
+│   └── binding.js       # Data binding (opcional)
+├── styles/              # Estilos (opcional)
+└── assets/              # Imagens e outros recursos (opcional)
